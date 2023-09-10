@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Gaming LandingPage</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="v-logo.png" class="logo">
+            <nav>
+                <ul id="menuList">
+                    <li><a href="">Game Controllers</a></li>
+                    <li><a href="">VR Accessories</a></li>
+                    <li><a href="">Media Remotes</a></li>
+                    <li><a href="">Others</a></li>
+                </ul>
+            </nav>
+            <img src="menu.png" class="menu-icon" onclick="togglemenu()">
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <h2>PS4 V2<br> Dualshock 4</h2>
+                <h3>Wireless Controller for PlayStation 4</h3>
+                <p>(Compatible/Genteric)</p>
+                <h4>$32.50</h4>
+                <button type="button">Buy Now<img src="arrow.png"></button>
+            </div>
+            <div class="col-2">
+                <img src="game-control.png" class="controller">
+                <div class="color-box"></div>
+                <div class="add-btn">
+                    <?xml version="1.0" encoding="UTF-8"?><svg width="24px" height="24px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000"><path d="M8 12h4m4 0h-4m0 0V8m0 4v4M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>   
+                    <p><small>add many option</small></p>
+                </div>
+            </div>
+        </div>
+        <div class="social-media">
+            <img src="facebook1.png">
+            <img src="twitter.png">
+            <img src="iinstagram.png">
+        </div>
+    </div>
+    <script>
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight = "0px";
+        function togglemenu(){
+            if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "130px"
+            }
+            else {
+                menuList.style.maxHeight = "0px"
+
+            }
+        }
+    </script>
+</body>
+</html>
