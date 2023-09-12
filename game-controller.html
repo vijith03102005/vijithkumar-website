@@ -6,11 +6,37 @@
     <title>Document</title>
     <style>
         body {
-            background: linear-gradient(to right, #4ffe44, #f35)
+            background: linear-gradient(to right, #959b95, rgb(29, 29, 29))
         }
         h1 {
             text-align: center;
         }
+        #center {
+            padding-left: 100px;
+            margin: 5px;
+            
+        }
+        .round {
+            height: 200px;
+            width: 200px;
+            position: absolute;
+            box-sizing: border-box;
+            background: linear-gradient(to left, #000, #fff);
+            border-radius: 50%;
+            
+        }
+    .in-round {
+        height: 180px;
+        width: 180px;
+        box-sizing: border-box;
+        background: linear-gradient(to right, #249ae3, #824982);
+        position: relative;
+        margin-left: 0.7rem;
+        margin-top: 0.6em;
+        border-radius: 50%;
+
+        
+    }
     </style>
 </head>
 <body>
@@ -22,6 +48,10 @@
     <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi optio adipisci odit eaque esse fuga omnis consequatur eius, debitis suscipit explicabo ut doloribus nesciunt veniam, doloremque alias. Ea, magni accusantium.
     </p>
-
+    <section id="center">
+        <div class="round">
+            <div class="in-round"></div>
+        </div>
+    </section>
 </body>
 </html>
