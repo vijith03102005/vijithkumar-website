@@ -1,1 +1,0 @@
-Hello = document.getElementById("hello")
