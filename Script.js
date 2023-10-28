@@ -1,1 +1,1 @@
-
+Hello = document.getElementById("hello")
